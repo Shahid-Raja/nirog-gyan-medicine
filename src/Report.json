@@ -1,0 +1,79 @@
+{
+    "Patient": {
+        "name": "John Doe",
+        "DOB": "1990-05-15",
+        "DOE": "2023-07-12",
+        "no_of_desices":2,
+        "objects": [
+            {
+                "medicine": {
+                    "type": "TAB",
+                    "name": "Paracetamol",
+                    "quantity": "500 mg",
+                    "image": {
+                        "sideA": "image_url_sideA",
+                        "sideB": "image_url_sideB"
+                    },
+                    "Reasone": "Fever"
+                },
+                "direction": {
+                    "time_type": "number",
+                    "no_of_tab": "1",
+                    "times": ["8:00 AM", "12:00 PM", "4:00 PM", "8:00 PM"],
+                    "by": "Oral",
+                    "text": "Take after meals",
+                    "subtext": "Take after meals bhot sara"
+                },
+                "side_effects": ["Nausea", "Headache"],
+                "Help": "nnhi krunga help"
+            },
+
+
+            {
+                "medicine": {
+                    "type": "CAPSULE",
+                    "name": "Paracetamol2",
+                    "quantity": "600 mg",
+                    "image": {
+                        "sideA": "image_url_sideA",
+                        "sideB": "image_url_sideB"
+                    },
+                    "Reasone": "Fever"
+                },
+                "direction": {
+
+                    "no_of_tab": "3",
+                    "times": ["","","","Bedtime"],
+                    "by": "Oral",
+                    "text": "Take after meals bhot sara",
+                    "subtext": "Take after meals bhot sara111"
+                },
+                "side_effects": ["Dizziness", "Headache","Constipation","Loss of appetite","Fatigue"],
+                "Help": "                                          "
+            },
+
+            {
+                "medicine": {
+                    "type": "INJ",
+                    "name": "Paracetamol",
+                    "quantity": "500 UNT/ML",
+                    "image": {
+                        "sideA": "image_url_sideA",
+                        "sideB": "image_url_sideB"
+                    },
+                    "Reasone": "Fever"
+                },
+                "direction": {
+
+                    "times": ["","","","Bedtime"],
+                    "by": "Oral",
+                    "text": "Take after meals",
+                    "subtext": "Take after meals bhot sara111"
+                },
+                "side_effects": ["Nausea", "Headache","Fever"],
+
+                "Help": "nhi krunga help"
+            }
+        ]
+    }
+}
